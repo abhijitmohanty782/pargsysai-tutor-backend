@@ -1,0 +1,23 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# dotenv file (local env vars)
+.env
+
+# Dependency lock files (optional if you use only one)
+# package-lock.json
+
+# VSCode local settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Azure deployment artifacts
+.scmignore

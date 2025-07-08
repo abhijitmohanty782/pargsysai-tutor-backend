@@ -1,0 +1,29 @@
+# ⛔ Node modules (will be reinstalled in image)
+node_modules
+
+# 🕵️ Git & version control
+.git
+.gitignore
+
+# github related
+.github/
+
+# 🔐 Secrets
+.env
+
+# 💥 Build artifacts / logs
+*.log
+*.cache
+npm-debug.log
+yarn-error.log
+
+# 🧪 Test coverage
+coverage
+*.test.js
+
+# 💻 IDE/editor junk
+.vscode
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
