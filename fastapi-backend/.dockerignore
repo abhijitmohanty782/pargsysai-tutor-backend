@@ -1,0 +1,45 @@
+# 🔐 Secrets and environment config
+.env
+*.env
+
+# 🧪 Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 📦 Package management
+*.egg-info/
+*.eggs/
+dist/
+build/
+
+# 🪵 Logs
+*.log
+
+# 🔧 VS Code/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 📁 OS-generated files
+.DS_Store
+Thumbs.db
+
+# 🧪 Test and coverage
+tests/
+.coverage
+htmlcov/
+coverage.xml
+
+# 📂 Git
+.git/
+.gitignore
+
+# ⚠️ Cache
+.cache/
+*.db
+
+# ☁️ CI/CD configs (if not needed inside container)
+.github/

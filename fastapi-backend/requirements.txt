@@ -1,0 +1,33 @@
+# Core API
+fastapi
+uvicorn[standard]
+
+# LangChain and Google Generative AI (Gemini)
+langchain-google-genai
+langchain-core
+
+
+# Sentence Transformers (SBERT)
+sentence-transformers
+
+# Transformers (E5 model)
+transformers
+torch
+
+# Embeddings / similarity
+scikit-learn
+numpy
+
+# Optional, but useful
+pydantic
+httpx
+
+# For typing and formatting
+typing-extensions
+
+# env support
+python-dotenv
+
+# Cosmos DB SDK
+azure-cosmos
+
